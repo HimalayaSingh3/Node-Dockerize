@@ -1,0 +1,4 @@
+# dockerignore is used to ignore file that we don't want to add in image and it is used to reduce the size of image.
+dummy.txt      # Ignores only the file named 'dummy.txt'
+node_modules   # Ignores the 'node_modules' directory
+*.txt          # Ignores all files with the .txt extension
