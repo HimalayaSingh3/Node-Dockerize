@@ -1,0 +1,10 @@
+# Classify Docker-related files
+dockerfile linguist-language=Dockerfile
+compose.yaml linguist-language=YAML
+
+# Treat text files as plain text
+dummy.txt linguist-language=Text
+sample.txt linguist-language=Text
+
+# Exclude node_modules from language analysis
+node_modules/* linguist-vendored
